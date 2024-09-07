@@ -26,14 +26,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # for 'te
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'yh8q$^l&-lj=qg8w12*gcq%uo0c8fx-d0tdisz6!8tr!br+(ws'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-WEATHER_API_KEY = 'c36e091ec865441ba57ed0b9af7fa890'
+WEATHER_API_KEY = 'your_weather_api_key'
 # Application definition
 
 
