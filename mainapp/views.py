@@ -173,7 +173,7 @@ logger = logging.getLogger(__name__)
 
 def get_lat_lon(city):
     """Function to get latitude and longitude from city name using a geocoding API."""
-    api_key = '66ba2cd592014928224432vwoee80e5'
+    api_key = 'your_api_key'
     geocode_url = f"https://geocode.maps.co/search?q={city}&api_key={api_key}"
     try:
         response = requests.get(geocode_url)
